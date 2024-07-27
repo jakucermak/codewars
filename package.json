@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "test": "jest",
+    "jest-conv": "npx jest-codemods typescript --force",
+    "some": "echo $npm_config_name",
+    "new-temp": "cd typescript/katas && mkdir $npm_config_name && cd $npm_config_name && touch solution.ts && touch test.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.12",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.4"
+  }
+}

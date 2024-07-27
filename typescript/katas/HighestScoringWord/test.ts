@@ -1,0 +1,23 @@
+import { high } from "./solution";
+
+const solutions = [
+  ["ab", "ab"],
+  ["man i need a taxi up to ubud", "taxi"],
+  ["what time are we climbing up the volcano", "volcano"],
+  ["take me to semynak", "semynak"],
+  ["massage yes massage yes massage", "massage"],
+  ["take two bintang and a dance please", "bintang"],
+  ["aa b", "aa"],
+  ["b aa", "b"],
+  ["bb d", "bb"],
+  ["d bb", "d"],
+  ["aaa b", "aaa"],
+];
+
+describe("Sample test", () => {
+  it("works with test inputs", () => {
+    solutions.forEach(([input, expected]) => {
+      expect(high(input)).toBe(expected);
+    });
+  });
+});

@@ -1,7 +1,8 @@
-/target
+rust/target
+.zed
 .vscode
 cw_rust.*
 .DS_Store
 __pychache__
 .idea/
-typescript/node_modules/
+node_modules/
